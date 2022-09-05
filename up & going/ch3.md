@@ -53,11 +53,11 @@ Pero no estoy sólo sugiriendo que la coerción es razonable y se puede aprender
 
 Usted quiere seguir lo que la gente dice, o está dispuesto a colocar a un lado todas las suposiciones y mirar la coerción con una prespectiva fresca? El título *Tipos y Gramática* de esta serie cambiará su forma de pensar.
 
-## Async & Performance
+## Asincronización & Ejecución
 
-The first three titles of this series focus on the core mechanics of the language, but the fourth title branches out slightly to cover patterns on top of the language mechanics for managing asynchronous programming. Asynchrony is not only critical to the performance of our applications, it's increasingly becoming *the* critical factor in writability and maintainability.
+Los primeros tres títulos de estas series se focalizan en los centros mecánicos del lenguaje, pero el cuarto título se ramifica levemente para cubrir patrones en la cima de las mecánicas lingüísticas para administrar la programación asincrónica. La asincronía no solamente es critica para la ejecución de nuestras aplicaciones, su acrecentamiento se vuelve *el* factor critico en la capacidad de escritura y la mantenibilidad.
 
-The book starts first by clearing up a lot of terminology and concept confusion around things like "async," "parallel," and "concurrent," and explains in depth how such things do and do not apply to JS.
+El libro comienza primero por aclarar mucha terminología y concepto que genera confución sobre cosas como "asíncrono," "paralelo," y "concurrente," y explica en profundidad cómo tales cosas se aplican o no en JS.
 
 Then we move into examining callbacks as the primary method of enabling asynchrony. But it's here that we quickly see that the callback alone is hopelessly insufficient for the modern demands of asynchronous programming. We identify two major deficiencies of callbacks-only coding: *Inversion of Control* (IoC) trust loss and lack of linear reason-ability.
 
